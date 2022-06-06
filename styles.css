@@ -1,6 +1,6 @@
 main {
   margin: auto;
-  padding: 0 20px;
+  padding: 0 1rem;
   max-width: 540px;
 }
 
@@ -10,10 +10,14 @@ section {
 }
 
 #output-card {
-  white-space: pre-line
+  white-space: pre-line;
 }
 
 #output-raw {
+}
+
+details {
+  margin-top: 2rem;
 }
 
 .entity {
