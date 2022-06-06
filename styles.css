@@ -1,0 +1,20 @@
+main {
+  margin: auto;
+  max-width: 500px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+#output-card {
+  white-space: pre-line
+}
+
+#output-raw {
+}
+
+.entity {
+  color: #0070f3;
+}

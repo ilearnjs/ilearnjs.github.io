@@ -1,16 +1,33 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fs parser</title>
+  <link href="./modern-normalize.css" rel="stylesheet">
+  <link href="./styles.css" rel="stylesheet">
 </head>
-
 <body>
-    <div id="content">
-    </div>
-    <script src="index.bundle.js"></script>
+  <main>
+    <section>
+      <h2>Input</h2>
+      <textarea id="input"></textarea>
+    </section>
+    <section>
+      <h2>Output</h2>
+      <div>
+        <span id="output-card">
+        </span>
+      </div>
+      <details>
+        <summary>Raw</summary>
+        <pre id="output-raw">
+        </pre>
+      </details>
+      <!-- <div id="output"></div> -->
+    </section>
+  </main>
+  <script src="./index.js"></script>
 </body>
-
 </html>
